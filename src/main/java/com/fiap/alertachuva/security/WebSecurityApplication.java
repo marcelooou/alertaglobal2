@@ -1,4 +1,4 @@
-package com.fiap.alertachuva;
+package com.fiap.alertachuva.security;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
