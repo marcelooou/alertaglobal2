@@ -1,0 +1,14 @@
+# Pastas de build
+/target/
+/build/
+
+# Classes compiladas, logs e artefatos
+*.class
+*.log
+*.jar
+*.war
+
+# Metadados de IDE (Eclipse, IntelliJ, VS Code, etc.)
+/.classpath
+/.project
+/.settings/
