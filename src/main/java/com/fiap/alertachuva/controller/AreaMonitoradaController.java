@@ -1,4 +1,3 @@
-// Substitua todo o conteúdo de src/main/java/com/fiap/alertachuva/controller/AreaMonitoradaController.java por:
 package com.fiap.alertachuva.controller;
 
 import com.fiap.alertachuva.entity.AreaMonitorada;

@@ -1,4 +1,4 @@
-// Substitua todo o conteúdo de src/main/java/com/fiap/alertachuva/entity/AreaMonitorada.java por:
+
 package com.fiap.alertachuva.entity;
 
 import jakarta.persistence.*;
