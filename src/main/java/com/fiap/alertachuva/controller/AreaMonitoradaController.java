@@ -1,3 +1,4 @@
+// Substitua todo o conteúdo de src/main/java/com/fiap/alertachuva/controller/AreaMonitoradaController.java por:
 package com.fiap.alertachuva.controller;
 
 import com.fiap.alertachuva.entity.AreaMonitorada;
@@ -10,7 +11,7 @@ import org.springframework.data.web.PageableDefault;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/areas")
+@RequestMapping("/api/areas")
 public class AreaMonitoradaController {
 
     @Autowired

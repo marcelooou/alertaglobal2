@@ -1,10 +1,10 @@
-
 package com.fiap.alertachuva.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
 
 @Entity
+@Table(name = "alerta_incendio")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -22,6 +22,9 @@ public class AlertaIncendio {
     @JoinColumn(name = "equipe_id")
     private EquipeResposta equipeDesignada;
 
+    @Column(name = "nivel_severidade")
     private String nivelSeveridade;
+
+    @Column(name = "status_alerta")
     private String statusAlerta;
 }
